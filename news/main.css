@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Roboto_1";
+    src:url(shrift/CormorantGaramond-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Roboto_3";
+    src:url(shrift/PlayfairDisplay-VariableFont_wght.ttf);
+}
+.Welcome_to_our_restaurant {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto_3", sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47vh;
+}
+
+nav ul {
+    width: 26vw;
+    height: 5vh;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 4vh;
+    background-color: rgba(45, 35, 35, 0.5);
+}
+nav a {text-decoration: none;color: #A5A5A5;}
+nav li :hover {color: white;}
+.button button {
+    width: 16vh;
+    height: 4vh;
+    border: none;
+    background-color: #F4C73F;
+    border-radius: 3vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 17vh;
+    gap: 1vh;
+}
+.container p {color: #EDEDED;}
+.container .p {font-size: 30px;color: #F9E68E; font-family: "Roboto_1", sans-serif;}
+.container .p_2 {font-size: 60px; color: white;}
+
+
+.From_Our_Kitchen_to_Your_Screen{
+    width: 100vw;
+    height: 200vh;
+    font-family: "Roboto_3", sans-serif;
+}
+
+.container_7{
+    display: flex;
+    position: relative;
+    gap: 18vh;
+    }
+    .container_dfgslksdf{
+       width: 100vh;
+       display: flex;
+       justify-content: space-around;
+       position: relative;
+       left: 20vh;
+    }
+.Kitchen{
+    position: relative;
+    top:10vh;
+    
+}
+.fvdkl{
+    position: relative;
+    top:15vh;
+    left: 51vh;
+   
+}
+.fvdkl input{
+    width: 21vh;
+    height: 3vh;
+    border-radius: 2vh;
+    border: none;
+    box-shadow: 0 0 0.5vh #575757;
+}
+.fvdkl ::placeholder{
+    position: relative; 
+    left: 3vh;
+    color: black;
+
+}
+.boton button{
+    position: relative; top: 32vh; left: 90vh;
+     width: 16vh;
+    height: 5vh;
+    border-radius: 3vh;
+    border: none;
+    background-color: #F4C73F;
+}
+
+.Discover_More_Stories{
+    width: 100vw;
+    height: 100.3vh;
+    background-image: url(images/00e7d2b2d0d5dc0dc4720d8ebefe9792ebe4ad5d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     font-family: "Roboto_3", sans-serif;
+}.tetx_6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+    position: relative; top:24vh;
+}
+.tetx_6 .p_14{font-size: 65px;}
+.tetx_6 .p_15{font-size: 18px;position: relative; top: 2vh;}
+
+.tetx_6 ::placeholder{
+    position: relative;
+    left: 5vh;
+}
+input {
+width: 80vh;
+height: 6vh;
+position: relative; top: 5vh;
+font-size: 18px;
+border-radius: 3vh;
+border: none;
+}
+.button_4{
+width: 13vh;
+height: 3.4vh;
+z-index: 1;
+color: black;
+font-size: 15px;
+border-radius: 3vh;
+border: none;
+position: relative; top: 0.5vh; left: 32vh; 
+background-color: #F9C06A; 
+
+}
+
+
+
+
+
+
+
+.p_17{font-size: 53px;}
+.p_18{font-size: 15px; color: #575757;}
+.foto_10{
+    width: 430px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1.2vh;
+    top: 15vh;
+    left: 19vh;
+    border-radius: 3vh;
+    background-color:#FFFFFF;
+    box-shadow: 1vh 1vh 1vh #00000008;
+}.foto_10 img{
+    width: 40vh;
+    position: relative;
+    left: 3vh;
+    top: 3vh;
+}.foto_10 p{
+    position: relative;
+    left: 3vh;
+    top:4.5vh;
+}.p_19{font-size: 14px;}
+.p_20-{font-size: 24px;}
+.p_21{font-size: 15px; color: #575757;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer */
+footer{
+    width: 100vw;
+    height: 110vh;
+    background-color: #01101D;
+    font-family: "Roboto_3", sans-serif;
+}
+.big_container_3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+     top: 5vh;
+}
+.Explore{
+ width: 46vh;
+ position: relative;
+left: -10vh;
+}
+.Explore p{
+color: #EDEDED;
+font-size: 44px;
+}
+.Explore button{
+     width: 12vh;
+    height: 4vh;
+    border: none;
+    background-color: #F4C73F;
+    border-radius: 3vh;
+    position: relative;
+    top: 2vh;
+}
+.stolbik a{
+color: #EDEDED;
+text-decoration: none;
+list-style: none;
+}.stolbik ul{
+    display: flex; 
+    flex-direction: column;
+     list-style: none; 
+     gap: 2vh;
+    }
+    .Connect{
+        display: flex;
+         flex-direction: column; 
+         gap: 2vh;
+         position: relative;
+         top: -5vh;
+        }
+    .Connect p{color: #A5A5A5;}
+.All{
+    display: flex;
+    justify-content: center;
+    gap: 114vh;
+    position: relative;
+    top: 20vh;
+}
+.All p{color: #F5F5F5; font-size: 14px;}
+.foto_11{
+    position: relative;
+    top: 22vh;
+    left: 35vh;
+}
+.Platieu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 14vh;
+}
+.Platieu p{
+    color: transparent;
+    font-size: 560px;
+   background-image: url(images/image.png);
+   background-clip: text;
+   -webkit-background-clip: text;
+    font-family: "Roboto_1", sans-serif;
+}
