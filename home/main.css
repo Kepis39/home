@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Roboto_1";
+    src:url(shrift/CormorantGaramond-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Roboto_2";
+    src:url(shrift/CormorantGaramond-Light.ttf);
+}
+@font-face{
+    font-family: "Roboto_3";
+    src:url(shrift/PlayfairDisplay-VariableFont_wght.ttf);
+}
+.Welcome_to_our_restaurant {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto_2", sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47vh;
+}
+
+nav ul {
+    width: 26vw;
+    height: 5vh;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 4vh;
+    background-color: rgba(45, 35, 35, 0.5);
+}
+nav a {text-decoration: none;color: #A5A5A5;}
+nav li :hover {color: white;}
+.button button {
+    width: 16vh;
+    height: 4vh;
+    border: none;
+    background-color: #F4C73F;
+    border-radius: 3vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 17vh;
+    gap: 1vh;
+}
+.container p {color: #EDEDED;}
+.container .p {font-size: 30px;color: #F9E68E; font-family: "Roboto_1", sans-serif;}
+.container .p_2 {font-size: 60px; color: white;}
+.double_button .button_1 {
+    width: 12vh;
+    height: 4vh;
+    border: none;
+    border-radius: 3vh;
+}
+.double_button .button_2 {
+    width: 12vh;
+    height: 4vh;
+    border-radius: 3vh;
+    border: none;
+    background-color: #F4C73F;
+}
+/*СТРАНИЦА 2 */
+.OUR_COMPANy {
+    width: 100vw;
+    height: 100vh;
+    background-color: #01101D;
+    font-family: "Roboto_3", sans-serif;
+}
+.one {
+    color: white;
+    position: relative;
+    left: -112vh;
+    top: 10vh;
+    font-size: 40px;
+}
+.big_container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 90vh;
+    gap: 4vh;
+
+}
+.two p {color: white;font-size: 20px;}
+.big_container_2 {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 3vh;
+    gap: 18vh;
+}
+
+.years .P_3 {
+    color: #F4C73F;
+    font-size: 40px;
+    position: relative;
+    left: -1vh;
+}
+
+.years p {
+    color: white;
+    font-size: 16px;
+    position: relative;
+    left: 1VH;
+}
+.foto_3 {
+    width: 40vw;
+    display: flex;
+    gap: 3.4vh;
+    position: relative;
+    top: 5vh;
+    left: 10vh;
+}
+.foto_3 img {width: 50vh;}
+.foto_4 img {width: 40vh;}
+/*СТРАНИЦА 3 */
+
+.Chef’s_Favorites {
+    width: 100vw;
+    height: 110vh;
+    font-family: "Roboto_3", sans-serif;
+}
+.tetx_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p_5 {color: #444444;}
+.container_2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+}
+.Appetizer {display: flex; gap: 3vh;}
+.tetx_3{display: flex; align-items: center; gap: 2vh;}
+.tetx_3 hr{
+   width: 100px;
+   position: relative;
+   top: -0.1vh; left: 0.1vh;
+}.tetx_3 .p_6{font-size: 25px; color:black;}
+
+.body{display: flex;flex-direction: column; gap: 1.8vh;}
+.body p{font-size: 18px; color: #575757;}
+.body button{
+    width: 90px; height: 26px; 
+    border: none; border-radius: 1vh; 
+    background-color: #F5F5F5;
+}
+.very_big_container_2{display: flex; gap: 3vh;}
+.big_left_container{
+display: flex;
+flex-direction: column; gap: 2vh;
+position: relative; left: 36vh;
+top: 18vh;}
+.big_right_container{
+display: flex;
+flex-direction: column; gap: 2vh;
+position: relative; left: 36vh;
+top: 18vh;
+}
+.tetx_2 button{
+    position: relative; top: 32vh; left: -1vh;
+     width: 16vh;
+    height: 5vh;
+    border-radius: 3vh;
+    border: none;
+    background-color: #F4C73F;
+}
+/*СТРАНИЦА 4 */
+.Real_Talk_From_Real_Foodies{
+    width: 100vw;
+    height: 90vh; 
+    background-color:#01101D;
+    font-family: "Roboto_3", sans-serif;
+}
+.tetx_4{
+    color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; top: 10vh;
+}
+.container_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; top: 20vh;left: -10vh; gap: 10vh;
+}
+.foto_5{
+width: 40vh;
+height: 46vh;
+background: url(images/sgd.png);
+background-repeat: no-repeat;
+border-radius: 1vh;
+background-size: cover;
+position: relative; left: 10vh;
+}
+.foto_6{
+width: 40vh;
+height: 46vh;
+background: url(images/yu.png);
+background-repeat: no-repeat;
+border-radius: 1vh;
+background-size: cover;
+position: relative; left: 10vh;
+}
+.foto_7{
+width: 40vh;
+height: 46vh;
+background: url(images/jkl.png);
+background-repeat: no-repeat;
+border-radius: 1vh;
+background-size: cover;
+position: relative; left: 10vh;
+}
+.foto_5_2{
+    width: 36vh;
+    height: 16vh;
+    border-radius: 2vh;
+    background-color: #FDFDFD; 
+    position: relative; top: 25vh; left: 2vh;
+}.foto_5_2 p{position: relative;font-size: 14px; top: 2vh; left: 1vh;}
+.p_7{position: relative; top: 1vh; }
+.p_8{font-size: 12px;}
+.p_9{font-size: 7px; color: #575757;}
+.end_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative; 
+    top: 26vh;
+}
+.end_section .foto_8{width: 90vh;}
+.strelki{display: flex; gap: 2vh;}
+.strelki button{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 4vh;
+    border: none;
+}
+.tetx_4 h1{font-size: 40px;}
+.tetx_4 .p_10{font-size: 16px;color: #EDEDED;
+}
+
+/*СТРАНИЦА 5 */
+.Craving_Something_Delicious{
+    width: 100vw;
+    height: 200vh;
+    background-color: #FDFDFD;
+    font-family: "Roboto_3", sans-serif;
+}
+.big_left_container_2{
+    width: 80vh;
+    height: 90vh;
+    position: relative;left: 6vh;
+    top: 10vh;
+    border-radius: 2vh;
+    background-color: #FFFFFF;
+    box-shadow: 0 1vh 3vh #00000008;
+}
+.tetx_5{
+display: flex;
+flex-direction: column;
+gap: 4vh;
+position: relative; left: 3vh; top: 3vh;
+}
+.tetx_5 p{
+    font-size: 30px;
+}
+.FullName{
+     width: 66.7vh;
+    height: 4vh;
+    border-radius: 1vh;
+}
+textarea{
+    width:  66.7vh;
+    height: 40vh;
+}
+.Phone_Number{
+    width: 60vh;
+    height: 4vh;
+    position: relative; left: -0.6vh;
+    border-radius: 0 1vh 1vh 0;
+}
+select{
+    width: 7vh;
+    height:4vh;
+    justify-content: center;
+    border-radius: 1vh  0 0 1vh;
+}
+.Email{
+     width: 66.7vh;
+    height: 4vh;
+    border-radius: 1vh;
+}
+.button_3 button {
+    width: 60vh;
+    height: 4vh;
+    border: none;
+    background-color: #F4C73F;
+    border-radius: 3vh;
+    position: relative;
+    left: 6vh;
+    top: -1vh;
+}
+span{
+    text-decoration:underline;
+    color:#F4C73F;
+}
+.big_right_container_2{
+   width: 50vh;
+    position: relative;
+    top: -76vh;
+    left: 120vh;
+    display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.container_5{
+    display: flex;
+    gap: 6vh;
+}
+.Number{
+   display: flex;
+   flex-direction: column;
+   gap: 1vh;
+}
+.p_12{font-size: 50px;}
+.p_11{font-size: 25px;}
+iframe{
+   width: 120vh;
+   height: 60vh;
+   position: relative;
+   left: 45vh;
+   top:-20vh;
+}
+/*СТРАНИЦА 6 */
+.Whats_on_Your_Mind{
+    width: 100vw;
+    height: 90vh;
+    background-color:#01101D;
+    font-family: "Roboto_3", sans-serif;
+}
+.tetx_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_6 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+}
+.tetx_6 h1{
+    font-size: 42px;
+}
+.p_14 {font-size: 14px; color: #FFFFFF;}
+
+.restaurant {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 80vh;
+position: relative;
+top: 20vh;
+}
+.restaurant_2{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 26vh;
+gap: 83vh;
+}
+.restaurant_3{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 31vh;
+gap: 85vh;
+}
+.restaurant_4{
+    display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 36vh;
+gap: 89vh;
+}
+.restaurant_5{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 41vh;
+gap: 90vh;
+}
+.restaurant_6{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 46vh;
+gap: 120vh;
+}
+.open p{
+font-size: 35px;
+color: #FDFDFD;
+}
+.open .p_15{
+    color: #A5A5A5;
+    font-size: 16px;
+}.open .p_16{
+    color: #A5A5A5;
+    font-size: 31px;
+}
+/*СТРАНИЦА 7 */
+.From_Our_Kitchen_to_Your_Screen{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    font-family: "Roboto_3", sans-serif;
+}
+.container_7{
+    display: flex;
+    position: relative;
+    gap: 18vh;
+    }
+.Kitchen{
+   width: 100vh;
+    position: relative;
+    top:10vh;
+    left: 20vh;
+}
+.p_17{font-size: 53px;}
+.p_18{font-size: 15px; color: #575757;}
+.foto_10{
+    width: 430px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1.2vh;
+    top: 15vh;
+    left: 19vh;
+    border-radius: 3vh;
+    background-color:#FFFFFF;
+    box-shadow: 1vh 1vh 1vh #00000008;
+}.foto_10 img{
+    width: 40vh;
+    position: relative;
+    left: 3vh;
+    top: 3vh;
+}.foto_10 p{
+    position: relative;
+    left: 3vh;
+    top:4.5vh;
+}.p_19{font-size: 12px;}
+.p_20-{font-size: 21px;}
+.p_21{font-size: 13px; color: #575757;}
+.button_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 34vh;
+}
+.button_4 button{
+     width: 12vh;
+    height: 4vh;
+    border: none;
+    background-color: #F4C73F;
+    border-radius: 3vh;
+}
+/*footer */
+footer{
+    width: 100vw;
+    height: 110vh;
+    background-color: #01101D;
+    font-family: "Roboto_3", sans-serif;
+}
+.big_container_3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+     top: 5vh;
+}
+.Explore{
+ width: 46vh;
+ position: relative;
+left: -10vh;
+}
+.Explore p{
+color: #EDEDED;
+font-size: 44px;
+}
+.Explore button{
+     width: 12vh;
+    height: 4vh;
+    border: none;
+    background-color: #F4C73F;
+    border-radius: 3vh;
+    position: relative;
+    top: 2vh;
+}
+.stolbik a{
+color: #EDEDED;
+text-decoration: none;
+list-style: none;
+}.stolbik ul{
+    display: flex; 
+    flex-direction: column;
+     list-style: none; 
+     gap: 2vh;
+    }
+    .Connect{
+        display: flex;
+         flex-direction: column; 
+         gap: 2vh;
+         position: relative;
+         top: -5vh;
+        }
+    .Connect p{color: #A5A5A5;}
+.All{
+    display: flex;
+    justify-content: center;
+    gap: 114vh;
+    position: relative;
+    top: 20vh;
+}
+.All p{color: #F5F5F5; font-size: 14px;}
+.foto_11{
+    position: relative;
+    top: 22vh;
+    left: 35vh;
+}
+.Platieu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 14vh;
+}
+.Platieu p{
+    color: transparent;
+    font-size: 560px;
+   background-image: url(images/image.png);
+   background-clip: text;
+   -webkit-background-clip: text;
+    font-family: "Roboto_1", sans-serif;
+}
